@@ -16,9 +16,10 @@ body {
   
   .container {
     width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
+    max-width: 100vw;
+    margin: 20px;
     clear: both;
+
   }
   
 
@@ -47,7 +48,7 @@ body {
     position: fixed;
     z-index: 99;
     width: 100%;
-    margin: 0;
+    margin-top: -30px;
     overflow: auto;
     color: #ffffff;
     background: #ffffff;
@@ -74,11 +75,15 @@ body {
 
   nav {
     float: right;
-    margin-top: 25px;
+    margin-top: 20px;
+    margin-bottom: 2px;
    
   }
   
+  #nav-row{
+    margin-right: 100px;
   
+  }
   nav a {
     
     display: inline-block;
@@ -92,7 +97,6 @@ body {
   
   nav a:first-child {
     border-left: 0 none;
-    
   }
   
   /* footer */
@@ -125,12 +129,19 @@ body {
   }
 
   .make-red{
+    line-height: 34px;
     color:red;
+    margin: 20px;
   }
   
 
   
   /* portfolio page */
+
+.main-section{
+  margin-top: 10px;
+  text-align: center;
+}
   
   .work {
     position: relative;
@@ -142,7 +153,6 @@ body {
   }
 
  
-  
   .work:nth-child(even) {
     margin-right: 40px;
   }
@@ -177,6 +187,7 @@ body {
     margin-right: 25px;
   }
   
+
   /* contact page */
 
 
@@ -222,4 +233,6 @@ body {
     color: black;
     border: 0 none;
   }
+
+
   
