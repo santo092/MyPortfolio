@@ -1,152 +1,174 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio | Trixie Santos</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Portfolio | Trixie Santos</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
-</head>
-
-<body>
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo" class="make-red">TS</a>
-      <div class="list">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-row">
-
-
-          <a class="nav-item nav-link active" href="index.html">About</a>
-          <a class="nav-item nav-link active" href="portfolio.html">Portfolio</a>
-          <a class="nav-item nav-link active" href="contact.html">Contact</a>
-
-
-
-        </nav>
-
-      </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <div class="row">
-        <h1>Portfolio</h1>
-
-      </div>
-
-
-      <div class="row">
-        <div class="col-md-4">
-          <div class="work">
-            <img src="assets/images/gitgrub.png" alt="Crystal Game">
-
-            <h3 id="crystal"><a class="nav-item nav-link active make-red"
-                href="https://gitgrubinc.herokuapp.com/">Git Grub</a></h3>
-
-
-
-          </div>
-
-        </div>
-
-        <div class="col-sm-4">
-          <div class="work">
-            <img src="assets/images/jordan.png" alt="Sports Trivia">
-
-            <h3 id="crystal1"><a class="nav-item nav-link active make-red"
-                href="https://santo092.github.io/TriviaGame/">Sports Trivia
-              </a></h3>
-          </div>
-
-        </div>
-
-        <div class="col-sm-4">
-          <div class="work">
-            <img src="assets/images/burger.png" alt="Sports Trivia">
-
-            <h3 id="crystal1"><a class="nav-item nav-link active make-red"
-                href="https://burger-shack1.herokuapp.com/burgers">Burger Shack
-              </a></h3>
-          </div>
-
-        </div>
-
-      </div>
-
-      <div class="row">
-
-        <div class="col-sm-4">
-          <div class="work">
-            <img src="assets/images/train.png" alt="Schedule Tracker">
-
-            <h3 id="crystal1"><a class="nav-item nav-link active make-red"
-                href="https://santo092.github.io/Trainschedule/">Train
-                Schedule</a></h3>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-
-          <div class="work">
-            <img src="assets/images/stark.png" alt="Project 1">
-
-            <h3 id="crystal1"><a class="nav-item nav-link active make-red"
-                href="https://santo092.github.io/Project-1/">Game of
-                Thrones Quiz</a></h3>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-
-          <div class="work">
-            <img src="assets/images/friend.png" alt="Project 1">
-
-            <h3 id="crystal1"><a class="nav-item nav-link active make-red"
-                href="https://friendfinder-ts15.herokuapp.com/">Friendfinder</a></h3>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-
-        <div class="col-md-4">
-          <div class="work">
-            <img src="assets/images/crystals.png" alt="Crystal Game">
-
-            <h3 id="crystal"><a class="nav-item nav-link active make-red"
-                href="https://santo092.github.io/unit-4-game/">Crystal
-                Game</a></h3>
-
-
-
-          </div>
-
-
-
-
-
-
-        </div>
-
-
-
-    </section>
-
-  </div>
-
-  <footer>
-    <div class="sticky.top">
+  <body>
+    <header id="masthead">
       <div class="container">
-        Copyright &copy;
+        <a href="index.html" id="logo" class="make-red">TS</a>
+        <ul class="nav justify-content-end" id="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
+    </header>
+
+    <div id="main-container" class="container">
+      <section class="main-section">
+        <h2>Portfolio</h2>
+      </section>
+
+      <div class="row">
+        <div class="col-md-6 img-container">
+          <img class="work" src="https://cdn.pixabay.com/photo/2017/09/06/21/43/crystal-2723145_1280.jpg" alt="Crystal Game"/>
+          <button class="btn" id="btn">Crystal Game</button>
+        </div>
+
+        <div class="col-md-6 img-container">
+          <img
+            class="work"
+            src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg"
+            alt="GitGrub"
+          />
+          <button class="btn" id="btn">GitGrub</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 img-container">
+          <img
+            class="work"
+            src="https://cdn.pixabay.com/photo/2018/09/19/17/49/keychain-3689063_1280.jpg"
+            alt="Game of Thrones Quiz"
+          />
+          <button class="btn" id="btn">Game of Thrones Quiz</button>
+        </div>
+
+        <div class="col-md-6 img-container">
+          <img
+            class="work"
+            src="https://cdn.pixabay.com/photo/2014/06/04/16/36/car-repair-362150_1280.jpg"
+            alt="Car Query"
+          />
+          <button class="btn" id="btn">Car Query</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 img-container">
+          <img
+            class="work"
+            src="https://cdn.pixabay.com/photo/2015/09/09/20/33/basketball-933173_1280.jpg"
+            alt="Sports Trivia Game"
+          />
+          <button class="btn" id="btn">Sports Trivia Game</button>
+        </div>
+
+        <div class="col-md-6 img-container">
+          <img
+            class="work"
+            src="https://cdn.pixabay.com/photo/2016/02/19/10/34/train-1209291_1280.jpg"
+            alt="Train Track"
+          />
+          <button class="btn" id="btn">Train Track</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 img-container">
+          <img
+            class="work"
+            src="https://cdn.pixabay.com/photo/2015/09/01/03/42/food-916397_1280.jpg"
+            alt="Eat-da-burger"
+          />
+          <button class="btn" id="btn">Eat-da-burger</button>
+        </div>
+
+        <div class="col-md-6 img-container">
+          <img
+            class="work"
+            src="https://cdn.pixabay.com/photo/2017/02/13/15/26/patrick-starfish-2062901_1280.jpg"
+            alt="Clicky Game"
+          />
+          <button class="btn" id="btn">Clicky Game</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 img-container">
+          <img
+            class="work"
+            src="https://cdn.pixabay.com/photo/2016/11/23/15/49/bundle-1853667_1280.jpg"
+            alt="NYT Article search"
+          />
+          <button class="btn" id="btn">NYT Article Search</button>
+        </div>
+
+        <div class="col-md-6 img-container">
+          <img
+            class="work"
+            src="https://cdn.pixabay.com/photo/2017/08/02/00/49/people-2569234_1280.jpg"
+            alt="Friend Finder"
+          />
+          <button class="btn" id="btn">Friend Finder</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 img-container">
+          <img
+            class="work"
+            src="https://cdn.pixabay.com/photo/2017/01/06/23/21/soap-bubble-1959327_1280.jpg"
+            alt="Letter Guess Game"
+          />
+          <button class="btn" id="btn">Letter Guess Game</button>
+        </div>
+
+        <div class="col-md-6 img-container">
+          <img
+            class="work"
+            src="https://cdn.pixabay.com/photo/2018/01/25/08/14/beverages-3105631_1280.jpg"
+            alt="Bamazon"
+          />
+          <button class="btn" id="btn">Bamazon</button>
+        </div>
+
+        
+      </div>
+
     </div>
-  </footer>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
-  <script src="assets/javascript/app.js"></script>
+    <footer>
+      <div class="sticky.top">
+        <div class="container">
+          Copyright &copy;
+        </div>
+      </div>
+    </footer>
 
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/javascript/app.js"></script>
+  </body>
 </html>
