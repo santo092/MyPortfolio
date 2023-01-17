@@ -176,6 +176,7 @@ i {
 img.full {
   width: 100vw;
   margin: 0 -15px;
+  position: absolute;
 }
 /* first row */
 
