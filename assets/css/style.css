@@ -8,6 +8,10 @@ body {
   box-sizing: border-box;
 }
 
+div.row {
+  margin-left: 100px;
+}
+
 /* general */
 
 .container {
@@ -74,9 +78,12 @@ footer {
   height: 50px;
   width: 100%;
   bottom: 0;
-  position: sticky;
+  position: fixed;
 }
 
+h1 {
+  color: #213a37
+}
 h3,
 h2 {
   line-height: 22px;
@@ -94,18 +101,17 @@ h2 {
 }
 
 #introduction {
-  padding-top: 30px;
-  min-height: 450px;
+  padding: 30px;
   font-size: 20pt;
   color: teal;
-  border-style: solid;
+  /*border-style: solid;
   border-width: 5px;
-  border-color: white;
+  border-color: #8c6345;*/
 }
 
 .make-red {
   line-height: 34px;
-  color: white;
+  color: #8c6345;
   margin-top: -15px;
   margin-left: -5x;
 }
@@ -175,10 +181,16 @@ i {
 
 img.full {
   width: 100vw;
-  margin: 0 -15px;
+  margin: -200px -15px;
   position: absolute;
+  display: block;
 }
 /* first row */
+
+section.first {
+  margin-top: 50px;
+  margin-left: 500px;
+}
 
 
 
