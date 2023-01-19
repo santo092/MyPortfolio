@@ -211,4 +211,14 @@ img.full {
   color: white;
 }
 
+div.block {
+  background-color: #8c6345;
+}
+
+div.blockIntro {
+  background-color: orange;
+  height: 1000px;
+  margin-top: -30px;
+}
+
 
