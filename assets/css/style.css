@@ -60,6 +60,11 @@ h3 {
   text-align: left;
   text-decoration: none;
 }
+
+a.navTitle {
+  color: white;
+}
+
 /** nav bar ***/
 .nav-link {
   margin-top: 13px;
@@ -197,7 +202,13 @@ img.full {
   height: 1300px;
 }
 
-
-
+/* third row */
+#third {
+  background-color: #272020;
+  padding: 5%;
+  border-radius: 20px;
+  width: 100%;
+  color: white;
+}
 
 
